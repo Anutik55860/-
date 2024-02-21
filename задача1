@@ -1,0 +1,14 @@
+c=int(input("Введите количество чисел: "))
+a=0
+b=1
+print(a)
+print(b)
+i=0
+while i<=c:
+    sum = (a+b)
+    print(sum)
+    i += 1
+    a=b
+    b=sum
+    
+    
